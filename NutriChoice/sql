@@ -1,0 +1,25 @@
+create database NutriChoice;
+
+
+use NutriChoice;
+
+CREATE TABLE my_table
+(
+    n VARCHAR(255),
+    e VARCHAR(255),
+    s VARCHAR(255),
+    m VARCHAR(255)
+);
+
+
+CREATE TABLE report
+(
+    n VARCHAR(255),
+    m VARCHAR(255)
+);
+
+CREATE TABLE login
+(
+    n VARCHAR(50) NOT NULL,
+    p VARCHAR(50) NOT NULL
+);
